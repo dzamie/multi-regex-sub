@@ -1,8 +1,8 @@
 import re
 
+in_name = "input.txt"
 
-
-with open("find.txt","r") as f, open("repl.txt","r") as r, open("input.txt","r") as i, open("output.txt","w") as o: 
+with open("find.txt","r") as f, open("repl.txt","r") as r, open(in_name,"r") as i, open("output.txt","w") as o: 
     find = f.readlines()
     repl = r.readlines()
     inpt = i.read()
